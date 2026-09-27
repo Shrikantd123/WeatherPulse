@@ -1,0 +1,68 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-gradient-start: #e0e7ff;
+  --bg-gradient-end: #f0f4ff;
+  --card-bg: rgba(255, 255, 255, 0.65);
+  --card-border: rgba(255, 255, 255, 0.4);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --text-primary: #1e1e2e;
+  --text-secondary: #585b70;
+  --text-muted: #6c7086;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --error-bg: rgba(239, 68, 68, 0.12);
+  --error-text: #dc2626;
+  --error-border: rgba(239, 68, 68, 0.25);
+  --input-bg: rgba(255, 255, 255, 0.7);
+  --input-border: rgba(0, 0, 0, 0.1);
+  --chip-bg: rgba(99, 102, 241, 0.1);
+  --chip-text: #6366f1;
+  --chip-hover: rgba(99, 102, 241, 0.2);
+  --footer-text: #9399b2;
+}
+
+[data-theme='dark'] {
+  --bg-gradient-start: #0f0e17;
+  --bg-gradient-end: #1a1a2e;
+  --card-bg: rgba(30, 30, 46, 0.7);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --text-primary: #cdd6f4;
+  --text-secondary: #a6adc8;
+  --text-muted: #6c7086;
+  --accent: #818cf8;
+  --accent-hover: #6366f1;
+  --error-bg: rgba(239, 68, 68, 0.15);
+  --error-text: #f87171;
+  --error-border: rgba(239, 68, 68, 0.3);
+  --input-bg: rgba(30, 30, 46, 0.7);
+  --input-border: rgba(255, 255, 255, 0.1);
+  --chip-bg: rgba(129, 140, 248, 0.15);
+  --chip-text: #a5b4fc;
+  --chip-hover: rgba(129, 140, 248, 0.25);
+  --footer-text: #585b70;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
